@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(background.gif);
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+}
+
+form {
+    text-align: center;
+    margin: 20px auto;
+    color: palevioletred;
+}
+
+#inputField {
+    padding: 1rem;
+    outline: none;
+    border: none;
+}
+
+.button-container .buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* CSS */
+.button-container button {
+  align-items: center;
+  padding: 6px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  color: #3D3D3D;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-container .button:focus {
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+label, input, button {
+    display: block;
+    margin: 10px auto;
+    color: black;
+}
+
+.title,.curHash {
+    color: #fff;
+}
+
+#hashInfo {
+    text-align: center;
+    margin-top: 20px;
+}

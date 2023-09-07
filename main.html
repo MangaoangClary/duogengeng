@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset and HashChange Event Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Reset and HashChange Event Example</h1>
+    <form id="myForm">
+        <label for="inputField" class="title">Type something:</label>
+        <input placeholder="Enter anything" type="text" id="inputField" name="inputField" />
+        <div class="button-container">
+            <div class="buttons">
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                </div>
+                <div class="reset">
+                    <button type="reset">Reset</button>        
+                </div>
+            </div>
+        </div>
+    </form>
+    <div id="hashInfo" class="curHash">Current Hash: <span id="hashValue"></span></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
